@@ -1,4 +1,6 @@
 # Real-Time-Object-detection-with-MobileNet-and-SSD
+Real-time object detection with MobileNet and SSD is a process of detecting objects in real time using the MobileNet and SSD object detection models. MobileNet is a lightweight, fast, and accurate object detection model that can be used on mobile devices. SSD is a single-shot object detection model that can detect objects in real time.
+
 Base networks such as MobileNet, VGG-Net, and LeNet serve as the foundation for various tasks like classification and detection. In classification, a fully connected layer is typically appended to the base network. However, in detection tasks, we replace the fully connected layer with specialized detection networks like SSD and Faster R-CNN. SSD, for instance, utilizes the last convolutional layer of the base network for object detection. MobileNet, similar to other base networks, employs convolutions to generate high-level features.
 
 # Requirements
