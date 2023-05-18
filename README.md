@@ -40,4 +40,7 @@ To resolve the two aforementioned issues, you can follow these steps:
 https://github.com/chuanqi305/MobileNet-SSD/blob/master/voc/MobileNetSSD_deploy.prototxt
 
 # Runnning this file
-Use the below commond to execute the python file:- python main.py --prototxt MobileNetSSD.txt --model MobileNetSSD_deploy.caffemodel
+Use the below commond to execute the python file:- 
+```sh
+python main.py --prototxt MobileNetSSD.txt --model MobileNetSSD_deploy.caffemodel
+```
