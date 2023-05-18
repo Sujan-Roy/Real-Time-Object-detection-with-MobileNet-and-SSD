@@ -1,6 +1,4 @@
-# Run This Commmand python real_time_object_detection.py 
-### --prototxt MobileNetSSD_deploy.prototxt.txt 
-### --model MobileNetSSD_deploy.caffemodel
+# Run This Commmand python real_time_object_detection.py  --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
 
 # import the necessary packages
 from imutils.video import VideoStream
