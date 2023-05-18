@@ -1,7 +1,21 @@
 # Real-Time-Object-detection-with-MobileNet-and-SSD
 Real-time object detection with MobileNet and SSD is a process of detecting objects in real time using the MobileNet and SSD object detection models. MobileNet is a lightweight, fast, and accurate object detection model that can be used on mobile devices. SSD is a single-shot object detection model that can detect objects in real time.
 
-Base networks such as MobileNet, VGG-Net, and LeNet serve as the foundation for various tasks like classification and detection. In classification, a fully connected layer is typically appended to the base network. However, in detection tasks, we replace the fully connected layer with specialized detection networks like SSD and Faster R-CNN. SSD, for instance, utilizes the last convolutional layer of the base network for object detection. MobileNet, similar to other base networks, employs convolutions to generate high-level features.
+To perform real-time object detection with MobileNet and SSD, you will need the following:
+
+1. A computer or mobile device with a webcam or video input
+2. The MobileNet and SSD object detection models
+3. An object detection library, such as OpenCV or TensorFlow
+
+Once you have all of the required components, you can follow these steps to perform real-time object detection:
+
+1. Install the object detection library on your computer or mobile device.
+2. Load the MobileNet and SSD object detection models into the object detection library.
+3. Start the webcam or video input.
+4. Loop over the frames of the webcam or video input.
+5. For each frame, detect objects using the MobileNet and SSD object detection models.
+6. Draw the bounding boxes around the detected objects.
+7. Display the frames with the detected objects.
 
 # Requirements
 Make sure you have the following files in the same directory as the Python script:
